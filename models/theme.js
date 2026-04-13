@@ -6,4 +6,5 @@ const themeSchema = new mongoose.Schema({
   font: String
 });
 
+
 module.exports = mongoose.model('Theme', themeSchema);
